@@ -75,6 +75,6 @@ structName = strrep(structName, '.', '_');
 x = datetime('now'); % Is useful if it is repeated
 myDate = datestr(x, 'mmdd');
 
-save(['predN' structName '_' b '_' myDate '.mat'], 'myAcc', 'myRanks', 'predictedNeighborsAll', 'accuracy');
+save(['morphoEmbVec' structName '_' b '_' myDate '.mat'], 'myAcc', 'myRanks', 'predictedNeighborsAll', 'accuracy');
 
 end
