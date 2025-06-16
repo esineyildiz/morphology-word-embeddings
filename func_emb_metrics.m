@@ -1,4 +1,4 @@
-function [top1Acc, top10Acc, meanRank] = func_emb_metrics(filename)
+function [top1Acc, top10Acc, meanRank] = func_emb_metrics(xlsxFile)
 % FUNC_EMB_METRICS calculates Top-1, Top-10, and Mean Rank from prediction results.
 %
 % Input:
@@ -9,7 +9,7 @@ function [top1Acc, top10Acc, meanRank] = func_emb_metrics(filename)
 %   top10    - proportion of correct words ranked in top 10
 %   meanRank - average rank of correct words
 
-    T = readtable(filename); 
+    T = readtable(xlsxFile); 
 
     expected = T.Expected;
     myNeighbors = T{:, 2:end};  % all columns after the first
