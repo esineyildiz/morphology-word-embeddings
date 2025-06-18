@@ -2,7 +2,7 @@
 
 This project evaluates whether static word embeddings (e.g., fastText, GloVe) capture productive morphological transformations — such as pluralization, verb tense, and nominalization — across different semantic and syntactic categories. 
 
-It uses custom MATLAB scripts to compute transformation vectors for morphemes and test their ability to generalize to unseen words. 
+It uses custom MATLAB (Python version is coming out soon!) scripts to compute transformation vectors for morphemes and test their ability to generalize to unseen words. 
 
 
 ---
