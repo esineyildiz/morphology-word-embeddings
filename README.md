@@ -1,3 +1,5 @@
+<img width="443" alt="Screenshot 2025-06-18 at 17 44 07" src="https://github.com/user-attachments/assets/9bfa6dd4-0beb-496c-8497-39df77471c35" />
+
 # morphology-word-embeddings
 
 This project evaluates whether static word embeddings (e.g., fastText, GloVe) capture productive morphological transformations — such as pluralization, verb tense, and nominalization — across different semantic and syntactic categories. 
