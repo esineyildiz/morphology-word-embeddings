@@ -92,7 +92,6 @@ English achieved a Top-1 accuracy of 46.88% and Top-10 accuracy of 100%. The cor
 Turkish had Top-1 accuracy of 6.25%, Top-10 accuracy at 84.38%, and a mean rank of 2.70.
 
 ## Notes
-The evaluation assumes file names follow the format: morphoEmbVec[task]_[lang]_[date].mat  
 
 This project is a development of my master's thesis under the supervision of [Dr. Scott L. Fairhall](https://webapps.unitn.it/du/it/Persona/PER0053660/Curriculum) at the University of Trento, [CIMeC](https://www.cimec.unitn.it/). If you would like to take a look at the results of different morphological transformations feel free to contact me!
 
